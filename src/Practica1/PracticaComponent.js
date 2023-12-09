@@ -6,6 +6,7 @@ import { Pregunta4 } from "./components/Pregunta4";
 import { person } from "./components/Pregunta5";
 import { Pregunta6 } from "./components/Pregunta6";
 import { Status } from "./components/Pregunta7";
+
 export const PracticaComponent = () => {
   return (
     <div>
