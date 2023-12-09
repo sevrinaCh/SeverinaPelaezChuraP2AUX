@@ -6,6 +6,7 @@ import { Pregunta4 } from "./components/Pregunta4";
 import { person } from "./components/Pregunta5";
 import { Pregunta6 } from "./components/Pregunta6";
 import { Status } from "./components/Pregunta7";
+import { index } from "./components/index";
 
 export const PracticaComponent = () => {
   return (
@@ -21,6 +22,7 @@ export const PracticaComponent = () => {
       <person/>
       <Pregunta6/>
       <Status/>
+      <index/>
     </div>
   );
 }
