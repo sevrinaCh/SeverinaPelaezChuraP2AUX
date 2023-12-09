@@ -1,6 +1,8 @@
 import React from 'react';
 import { Pregunta1 } from "./components/Pregunta1";
 import { Pregunta2 } from "./components/Pregunta2";
+import { Student } from "./components/Pregunta3";
+
 export const PracticaComponent = () => {
   return (
     <div>
@@ -8,6 +10,9 @@ export const PracticaComponent = () => {
       <Pregunta1/>
       <hr/>
       <Pregunta2/>
+      <hr />
+      <Student/>
+      <hr/>
     </div>
   );
 }
